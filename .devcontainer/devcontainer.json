@@ -1,0 +1,23 @@
+{
+  "name": "Dart Expense Tracker",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/anthropics/devcontainer-features/dart:1": {
+      "version": "latest"
+    }
+  },
+  "postCreateCommand": "dart pub get",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Dart-Code.dart-code"
+      ]
+    },
+    "codespaces": {
+      "openFiles": [
+        "bin/main.dart",
+        "README.md"
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+# Dart generated files
+.dart_tool/
+.packages
+
+# Pub dependencies
+pubspec.lock
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Runtime data
+expenses.json

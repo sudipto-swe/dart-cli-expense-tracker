@@ -1,0 +1,6 @@
+name: expense_tracker
+description: A command-line expense tracker built with pure Dart.
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
