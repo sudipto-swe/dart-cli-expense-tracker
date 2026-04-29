@@ -30,7 +30,9 @@ jobs:
         run: dart analyze --fatal-infos
 
       - name: 🏗️ Compile executable
-        run: dart compile exe bin/main.dart -o build/expense_tracker
+        run: |
+          mkdir -p build
+          dart compile exe bin/main.dart -o build/expense_tracker
 
       - name: ✅ Upload build artifact
         uses: actions/upload-artifact@v4
