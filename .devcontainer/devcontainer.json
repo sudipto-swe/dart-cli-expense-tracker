@@ -1,17 +1,13 @@
 {
   "name": "Dart Expense Tracker",
-  "image": "dart:stable",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
   "postCreateCommand": "dart pub get",
   "customizations": {
     "vscode": {
       "extensions": [
         "Dart-Code.dart-code"
-      ]
-    },
-    "codespaces": {
-      "openFiles": [
-        "bin/main.dart",
-        "README.md"
       ]
     }
   }
